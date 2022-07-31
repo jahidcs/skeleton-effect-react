@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+    min-height: 100vh;
+    background: rgba(229, 253, 209, 0.925);
+}
+
+.card {
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    margin: 1rem;
+    flex: 0.5;
+    text-align: center;
+    background: white;
+    border: 1px solid rgb(238, 227, 227);
+    color: gray;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.card > img {
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    margin: 1rem 0;
+}
+
+h2 {
+    margin: 1rem 0;
+}
